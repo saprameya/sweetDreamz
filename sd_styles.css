@@ -157,7 +157,7 @@ body{
 }
 .main_article_image{
     min-height: 60vh;
-    background-image: url(images/CookiesBkgrndAIBigger.png);
+    background-image: url(CookiesBkgrndAIBigger.png);
     background-size: cover;
     border-radius: 10px;
     margin: 0 5rem;
