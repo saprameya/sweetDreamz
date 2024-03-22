@@ -67,8 +67,11 @@ body{
     text-decoration: underline;
 
 }
+#menu_link:hover{
+    font-size: 3.2rem;
+}
 
-.header .navbar a:hover, .header .actions div:hover{
+.link:hover, .header .actions div:hover{
     font-size: 1.8rem;
 }
 
@@ -154,7 +157,7 @@ body{
 }
 .main_article_image{
     min-height: 60vh;
-    background-image: url(CookiesBkgrndAIBigger.png);
+    background-image: url(images/CookiesBkgrndAIBigger.png);
     background-size: cover;
     border-radius: 10px;
     margin: 0 5rem;
@@ -166,7 +169,7 @@ footer{
 color:white;
 }
 
-@media (min-width: 370px){
+/* @media (min-width: 370px){
     .header{
         flex-direction: column;
     }
@@ -189,4 +192,4 @@ color:white;
     .header .navbar a{
         display: initial;
     }
-}
+} */
