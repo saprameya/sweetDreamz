@@ -172,10 +172,11 @@ color:white;
 @media (min-width: 370px) and (max-width:1026px){
     .header{
         flex-direction: column;
+        max-height: 15rem;
     }
 
     body{
-        margin-top: 10rem;
+        margin-top: 13rem;
     }
     
     .main_article_section,.main_article_image {
