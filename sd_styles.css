@@ -157,7 +157,7 @@ body{
 }
 .main_article_image{
     min-height: 60vh;
-    background-image: url(CookiesBkgrndAIBigger.png);
+    background-image: url(images/CookiesBkgrndAIBigger.png);
     background-size: cover;
     border-radius: 10px;
     margin: 0 5rem;
@@ -169,27 +169,25 @@ footer{
 color:white;
 }
 
-/* @media (min-width: 370px){
+@media (min-width: 370px) and (max-width:1026px){
     .header{
         flex-direction: column;
     }
-    .header .siteMenu{
-        display: inherit;
+
+    body{
+        margin-top: 10rem;
     }
-    .header .navbar a{
-        display: none;
+    
+    .main_article_section,.main_article_image {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    
+    #menu_link{
+        font-size: 2rem;
     }
 
 }
 
-@media (min-Width:1026px){
-    .header{
-        flex-direction: row;
-    }
-    .header .siteMenu{
-        display: none;
-    }
-    .header .navbar a{
-        display: initial;
-    }
-} */
