@@ -169,7 +169,7 @@ footer{
 color:white;
 }
 
-@media (min-width: 324px) and (max-width:1026px){
+@media (max-width:1026px){
     .header{
         flex-direction: column;
         max-height: 15rem;
