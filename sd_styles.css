@@ -19,7 +19,7 @@ html{
 body{
     background-color: #88592f;
     min-height: 100vh;
-
+    margin-top: 11rem;
 }
 
 .header, footer {
@@ -32,7 +32,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
-
+    height: 11rem;
     /* z-index: 1000; */
 }
 
@@ -46,7 +46,8 @@ body{
     height: 10rem;
     margin: 0.5rem;
     border-radius: 1rem;
-
+    box-shadow: 2px 2px 20px  #b6a281;
+    border: 3px solid #52341e;
 
 }
 
@@ -104,6 +105,7 @@ body{
     color:#764b2b;
     border-radius: 0.5rem;
     background-color: #f5dbac;
+    box-shadow: 5px 5px 20px inset;
 
 
 }
@@ -170,7 +172,7 @@ color:white;
 @media (min-width: 370px) and (max-width:1026px){
     .header{
         flex-direction: column;
-        max-height: 15rem;
+        height: 15rem;
     }
 
     .header .logo img{
