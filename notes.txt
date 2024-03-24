@@ -1,6 +1,6 @@
 website colors
 body background-color: #88592f 
-.header, footer: background-color: #764b2b;
+.header, footer: background-color: #52341e;
 html, .header, footer: font-color: #f0e9e3;
 .header .search-form input: background-color: #f5dbac
 .cart:hover: background-color:  #8c5832
