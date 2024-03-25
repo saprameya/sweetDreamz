@@ -1,3 +1,4 @@
+/* Main styles */
 *{
     margin: 0;
     padding: 0;
@@ -7,28 +8,27 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.5s ease-in;
-
 }
 
 html{
     font-size: 62.5%;
     color: #f0e9e3;
-
 }
 
 body{
-    background-color: #88592f;
+    background-image: radial-gradient(#89592f 60%,#e98944);
     min-height: 100vh;
     margin-top: 11rem;
 }
 
+
+/* Header and footer styles */
 .header, footer {
     background-color: #52341e;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem, 7%;
     top: 0;
     left: 0;
     right: 0;
@@ -38,8 +38,6 @@ body{
 
 .header{
     position: fixed;
-
-
 }
 
 .header .logo img{
@@ -48,13 +46,11 @@ body{
     border-radius: 1rem;
     box-shadow: 2px 2px 20px  #b6a281;
     border: 3px solid #52341e;
-
 }
 
 .header .siteMenu{
     display: none;
     font-size: 1.5rem;
-
 }
 
 .link{
@@ -63,6 +59,7 @@ body{
     margin: 0 1rem ;
     color:#f0e9e3;
 }
+
 #menu_link{
     font-size: 3rem;
     text-decoration: underline;
@@ -105,9 +102,7 @@ body{
     color:#764b2b;
     border-radius: 0.5rem;
     background-color: #f5dbac;
-    box-shadow: 5px 5px 20px inset;
-
-
+    box-shadow: 2px 2px 20px inset;
 }
 
 #searchBtn{
@@ -120,8 +115,6 @@ body{
     width: 2rem;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 #searchBtn img{
@@ -141,8 +134,9 @@ body{
 #cart_img:hover{
     height: 3.5rem;
     background-color: #8c5832;   
-
 }
+
+/* Body section styles */
 .main{
     min-height: 100vh;
     margin-top: 7rem;
@@ -162,13 +156,13 @@ body{
     border-radius: 10px;
     margin: 0 5rem;
     box-shadow: 10px 10px 20px #000;
-
-    
 }
+
 footer{
-color:white;
+    color:white;
 }
 
+/* Mobile devices styles */
 @media (min-width: 370px) and (max-width:1026px){
     .header{
         flex-direction: column;
