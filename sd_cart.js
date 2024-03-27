@@ -16,9 +16,11 @@ cartItem.innerHTML += '<tr>'+
 '<td>' + '$'+itemTotal + '</td>'+
 '</tr>';
 grandTotal += parseFloat(itemTotal);
+alert(itemTotal + "\n" + grandTotal);
 
 addedItem = itemImg[2];
 qty = 1;
+var itemTotal = (itemPrice[2]*qty).toFixed(2);
 cartItem.innerHTML += '<tr>'+ 
 '<td><image src = "' + addedItem + '" ></td>' +
 '<td>' + itemTitle[2] + '</td>' +
@@ -27,6 +29,9 @@ cartItem.innerHTML += '<tr>'+
 '<td>' + '$'+itemTotal + '</td>'+
 '</tr>';
 grandTotal += parseFloat(itemTotal);
+alert(itemTotal + "\n" + grandTotal);
+
+
 
 cartItem.innerHTML += '<tr>'+ 
 '<th>Total</th>' + '<td></td>' + '<td></td>'+ '<td></td>' +
