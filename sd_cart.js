@@ -16,7 +16,7 @@ cartItem.innerHTML += '<tr>'+
 '<td>' + '$'+itemTotal + '</td>'+
 '</tr>';
 grandTotal += parseFloat(itemTotal);
-alert(itemTotal + "\n" + grandTotal);
+
 
 addedItem = itemImg[2];
 qty = 1;
@@ -29,7 +29,6 @@ cartItem.innerHTML += '<tr>'+
 '<td>' + '$'+itemTotal + '</td>'+
 '</tr>';
 grandTotal += parseFloat(itemTotal);
-alert(itemTotal + "\n" + grandTotal);
 
 
 
