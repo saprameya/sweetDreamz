@@ -16,12 +16,16 @@ html{
 }
 
 body{
-    background-image: radial-gradient(#89592f 60%,#e98944);
+    background-image: radial-gradient(#e98944, #89592f,#e98944);
     min-height: 100vh;
     margin-top: 11rem;
 }
 
-
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
 /* Header and footer styles */
 .header, footer {
     background-color: #52341e;
@@ -85,16 +89,18 @@ body{
 }
 
 .header .search-form{
-    right: 7%;
-    width: 30rem;
-    height: 4rem;
-    padding: 0.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    /* right: 7%; */
+    /* width: 30rem; */
+    /* height: 4rem; */
+    padding: 0 2rem;
     align-items: center;
-    align-self: center;
+    /* align-self: center; */
 }
 
 .header .search-form input{
-    width: 100%;
+    width: 90%;
     height: 3rem;
     padding: 1rem;
     text-transform: none;
@@ -103,22 +109,27 @@ body{
     border-radius: 0.5rem;
     background-color: #f5dbac;
     box-shadow: 2px 2px 20px inset;
+    align-items: center;
+    
 }
 
 #searchBtn{
+    display: flex;
+    flex-direction: row;
+    float: right;
     text-transform: none;
     font-size: 1.3rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     background-color: transparent;
-    height: 2rem;
+    height: 2.5rem;
     width: 2rem;
     justify-content: center;
     align-items: center;
 }
 
 #searchBtn img{
-    height: 1.2rem;
+    height: 1.6rem;
     background-color: transparent;
     color: white;
 }
@@ -153,6 +164,7 @@ body{
     min-height: 60vh;
     background-image: url(CookiesBkgrndAIBigger.png);
     background-size: cover;
+    border: 3px solid #52341e;
     border-radius: 10px;
     margin: 0 5rem;
     box-shadow: 10px 10px 20px #000;
@@ -163,7 +175,7 @@ footer{
 }
 
 /* Mobile devices styles */
-@media (min-width: 370px) and (max-width:1026px){
+@media (min-width: 320px) and (max-width:1024px){
     .header{
         flex-direction: column;
         height: 15rem;
