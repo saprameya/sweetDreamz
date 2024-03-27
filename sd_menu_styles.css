@@ -7,6 +7,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+
 .item-card{
     display: flex;
     flex-direction: column;
@@ -61,13 +62,15 @@
     #menu-main{
         grid-template-columns: 1fr;
     }
-
+    
 }
 
-@media (min-width: 768px) and (max-width:1024px){
+@media (min-width: 768px) and (max-width:1023px){
     #menu-main{
         grid-template-columns: 1fr 1fr;
     }
 
 }
+
+
 
