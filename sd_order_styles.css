@@ -1,0 +1,98 @@
+p{
+    display: block;
+    margin:10rem auto 0 auto;
+    padding-left: 2rem;
+    font-size: 2rem;
+    width: 70%;
+}
+
+a{
+    color: #f0e9e3;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    width: 70%;
+    margin:  10rem auto 0 auto;
+    /* margin-top: 5rem;
+    margin-left: .5rem; */
+    flex-flow: row wrap;
+}
+
+fieldset {
+    background-color: #f5dbac;
+    flex: 1 1 30rem; 
+    margin: 1rem;  
+}
+
+form div{
+    margin: 0.5rem;
+    width: 100%;
+}
+
+.customer-info-box{
+    font-size: 2rem;
+    background-color: #f0e9e3;
+    color: #52341e;
+}
+legend {
+    color: #f0e9e3;
+    background-color: #52341e;
+    font-size: 1.5rem;
+}
+
+label {
+    display: inline-block;
+    width: 12rem;
+    font-size: 2rem;
+ }
+ fieldset{
+    color: #52341e;
+    margin-left: 0.5rem;
+ }
+
+ fieldset#deliveryInfo{
+    display: block;
+   /* width: 60%; */
+ }
+ fieldset#deliveryInfo label {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    width: 50%;
+ }
+
+ textarea {
+    display: block;
+    width: 90%;
+    height: 10rem;
+    background-color: #f0e9e3;
+ }
+
+ input[type="submit"] {
+    height: 5rem;
+    width: 20rem;
+ }
+ 
+ input#sizeBox {
+    width: 24rem;
+ }
+ 
+ /* Validation Styles */
+
+ 
+.input:focus{
+    background-color: hsl(328, 30%, 62%);
+ }
+ 
+ .input:focus:valid {
+    background-color: rgb(220, 255, 220);
+    
+ }
+ 
+ .input:focus:invalid{
+    background-color: rgb(250, 168, 168);
+    
+ }
+ 
+ 

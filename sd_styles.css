@@ -37,8 +37,9 @@ h1{
     left: 0;
     right: 0;
     height: 11rem;
-    /* z-index: 1000; */
+    z-index: 1000;
 }
+
 
 .header{
     position: fixed;
@@ -48,8 +49,8 @@ h1{
     height: 10rem;
     margin: 0.5rem;
     border-radius: 1rem;
-    box-shadow: 2px 2px 20px  #b6a281;
-    border: 3px solid #52341e;
+    box-shadow: 0.2rem 0.2rem 2rem  #b6a281;
+    border: 0.3rem solid #52341e;
 }
 
 .header .siteMenu{
@@ -64,7 +65,7 @@ h1{
     color:#f0e9e3;
 }
 
-#menu_link{
+#menu_link, #video_link, #testimonial_link{
     font-size: 3rem;
     text-decoration: underline;
 
@@ -108,7 +109,7 @@ h1{
     color:#764b2b;
     border-radius: 0.5rem;
     background-color: #f5dbac;
-    box-shadow: 2px 2px 20px inset;
+    box-shadow: 0.2rem 0.2rem 2rem inset;
     align-items: center;
     
 }
@@ -164,14 +165,66 @@ h1{
     min-height: 60vh;
     background-image: url(CookiesBkgrndAIBigger.png);
     background-size: cover;
-    border: 3px solid #52341e;
-    border-radius: 10px;
+    border: 0.3rem solid #52341e;
+    border-radius: 1rem;
     margin: 0 5rem;
-    box-shadow: 10px 10px 20px #000;
+    box-shadow: 1rem 1rem 2rem #000;
 }
 
 footer{
-    color:white;
+    color: #f0e9e3;
+    bottom: 0%;
+    display: flex;
+    margin: 0;
+    padding: 1rem 5rem;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 2rem;
+    height: auto;
+}
+footer div{
+    width: max-content;
+    text-align: left;
+    /* padding: 0 5rem; */
+}
+footer h4, #footer-link{
+    font-size: 1.2rem;
+}
+
+#footer-link{
+    text-decoration: underline;
+}
+footer li a.link{
+    font-size: 1rem;
+}
+footer li a.link:hover{
+    font-size: 1.3rem;
+}
+
+footer li {
+    
+    list-style-type: none;
+}
+
+#contact-footer li a{
+    color: #f0e9e3;
+    text-decoration: underline;
+}
+video{
+    filter: drop-shadow(0.8rem 0.8rem 1.5rem #52341e);
+    display: block;
+    margin: 1rem auto;
+    width: 80%;
+    border: 0.3rem solid #52341e;
+    border-radius: 0.5rem;
+    box-shadow: 0.8rem 0.8rem 1.5rem #52341e;
+
+}
+
+.contact a{
+    color: #f0e9e3;
+    text-decoration: underline;
+    
 }
 
 /* Mobile devices styles */
@@ -180,10 +233,26 @@ footer{
         flex-direction: column;
         height: 15rem;
     }
+    footer{
+        
+        font-size: 0.7rem;
+        padding: 1rem;        
+    }
+    /* footer div{
+        width: 33%;
+    } */
+    footer h4, #footer-link{
+        font-size: 1rem;
+    }
+    footer h4, #footer-link{
+        font-size: 1rem;
+    }
 
     .header .logo img{
         height: 7rem;
     }
+
+    
 
     .header .navbar{
         max-height: 1rem;
@@ -204,7 +273,7 @@ footer{
         
     }
     
-    #menu_link{
+    #menu_link, #video_link, #testimonial_link{
         font-size: 2rem;
     }
 

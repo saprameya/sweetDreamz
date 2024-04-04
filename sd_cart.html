@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="sd_styles.css" rel="stylesheet"/>
-    <link href="sd_cart.css" rel="stylesheet"/>
+    <link href="sd_cart_styles.css" rel="stylesheet"/>
+    <link href="sd_menu_styles.css" rel="stylesheet"/>
     <script src="sd_script.js" defer></script>
     <script src="sd_cart.js" defer></script>
     <title>Sweet Dreamz</title>
@@ -36,10 +37,29 @@
             <!-- Cart items populated in javascript file -->
             
         </table>
-        
+        <button class="check-out-btn" id="check-out-btn"><a href="sd_order.html">Check out</a></button>
     </main>
     <footer>
-        Lorem ipsum dolor sit amet.
+        <div id="about-footer">
+            <h4><a href="sd_about.html" class="link" id="footer-link">About us</a> </h4>
+            <p>Learn about our mission</p>
+        </div>
+        <div id="nav-footer">
+            <h4>Site menu</a> </h4>
+            <ul>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="sd_menu.html" class="link">Menu</a> </li>
+                <li><a href="sd_reviews.html" class="link">Reviews</a> </li>
+            </ul>
+            
+        </div>
+        <div id="contact-footer">
+            <h4>Contact us</h4>
+            <li>Call us: <a href="tel:+1234567890">(123) 456-7890</a></li>
+            <li>Text us: <a href="sms:+1234567890">(123) 456-7890</a></li>
+            <li>Email us: <a href="mailto:dream-sweet@sweet-dreamz.com"><br>dream-sweet@sweet-dreamz.com</a></li>
+
+        </div>
     </footer>
 </body>
 </html>

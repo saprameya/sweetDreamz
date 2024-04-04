@@ -17,7 +17,6 @@ cartItem.innerHTML += '<tr>'+
 '</tr>';
 grandTotal += parseFloat(itemTotal);
 
-
 addedItem = itemImg[2];
 qty = 1;
 var itemTotal = (itemPrice[2]*qty).toFixed(2);

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sd_styles.css" rel="stylesheet"/>
+    <link href="sd_menu_styles.css" rel="stylesheet"/>
+    <link href="sd_cart_styles.css" rel="stylesheet"/>
+    <link href="sd_order_styles.css" rel="stylesheet"/>
+    <script src="sd_script.js" defer></script>
+    <title>Sweet Dreamz</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="logo.png"></a>
+        <a href="" class="siteMenu">Site Menu</a>
+        <nav class="navbar">
+           <a href="index.html" class="link">Home</a>
+           <a href="sd_menu.html" class="link">Menu</a>
+           <a href="sd_about.html" class="link">About us</a>
+           <a href="sd_reviews.html" class="link">Reviews</a> 
+        </nav>
+        <div class="actions">
+            <div class="search-form">
+                <input type="text" name="search"  id="searchBox" placeholder="search here">
+                <button id="searchBtn" onclick=""><img src="search_icon_brown_bg.png" alt="search icon" ></button>
+            </div>
+                
+                <div class="cart">  <a href="sd_cart.html"> <img id="cart_img" src="cart_icon_brown_bg.png" alt="cart" > </a> </div>
+        </div>
+
+
+    </header>
+    <main class="main">
+        <h1>Customer Order Form</h1>
+        <p>Thank you for being a valuable customer. 
+            <br>Note that required
+            values are marked by an asterisk (*). 
+            <br>If you
+            want to place your order over the phone, please call us at
+            <a href="tel:+1234567890">(123) 456-7890</a>.
+        </p>
+        <form action="" method="post">
+            <div>
+               <label for="nameBox">Name*</label>
+               <input name="custName" id="nameBox" type="text" class="customer-info-box input" placeholder="first-name last-name" required>
+            </div>
+            <div>
+               <label for="phoneBox">Phone*</label>
+               <input type="text" id="phoneBox" name="custPhone" class="customer-info-box input" placeholder="(nnn) nnn-nnnn" required pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"> 
+            </div>
+            <!-- <div>
+               <input name="orderType"  id="delivery" type="radio" checked>
+               <label for="delivery">Delivery</label>
+               <input name="orderType"  id="pickup" type="radio">
+               <label for="pickup">Pickup</label>
+            </div> -->
+            <fieldset id="deliveryInfo">
+               <legend>Delivery Options</legend>
+               <textarea name="delAddress" id ="addressBox" class="input" placeholder="Enter delivery address." required></textarea>
+               <label>Delivery Time</label>
+               <input name="delTime" id ="delBox" type="time"  placeholder="Enter delivery address." >
+            </fieldset>
+            <!-- <fieldset id="pickupInfo">
+                <legend>Pickup Options </legend>
+                <label>Pickup Time (leave blank for earliest pickup)</label>
+                <input name="pickupTime" id ="pickupBox" type="time" placeholder="Enter delivery address." disabled>
+             </fieldset> -->
+             <div>
+                <button class="order-button" type="submit" >Place your Order</button>
+             </div>
+    
+        </form>   
+    </main>
+    <footer>
+        <div id="about-footer">
+            <h4><a href="sd_about.html" class="link" id="footer-link">About us</a> </h4>
+            <p>Learn about our mission</p>
+        </div>
+        <div id="nav-footer">
+            <h4>Site menu</a> </h4>
+            <ul>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="sd_menu.html" class="link">Menu</a> </li>
+                <li><a href="sd_reviews.html" class="link">Reviews</a> </li>
+            </ul>
+            
+        </div>
+        <div id="contact-footer">
+            <h4>Contact us</h4>
+            <li>Call us: <a href="tel:+1234567890">(123) 456-7890</a></li>
+            <li>Text us: <a href="sms:+1234567890">(123) 456-7890</a></li>
+            <li>Email us: <a href="mailto:dream-sweet@sweet-dreamz.com"><br>dream-sweet@sweet-dreamz.com</a></li>
+
+        </div>
+    </footer>
+</body>
+</html>

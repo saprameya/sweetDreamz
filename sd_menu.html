@@ -6,6 +6,7 @@
     <link href="sd_styles.css" rel="stylesheet"/>
     <link rel="stylesheet" href="sd_menu_styles.css">
     <script src="sd_script.js" defer></script>
+    <script src="sd_cart.js" defer></script>
     <title>Sweet Dreamz</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
            <a href="index.html" class="link">Home</a>
            <a href="sd_menu.html" class="link">Menu</a>
            <a href="sd_about.html" class="link">About us</a>
-           <a href="sd_testimonials.html" class="link">Testimonials</a> 
+           <a href="sd_reviews.html" class="link">Reviews</a> 
         </nav>
         <div class="actions">
             <div class="search-form">
@@ -30,12 +31,40 @@
 
     </header>
     <h1>Our Menu</h1>
+    <aside id="aside">
+        We cater to custom orders including but not limited to cakes, cupcakes and pastries. <br> <br>
+        We can also make your order gluten-free or vegan. <br>
+            
+            <span class="contact"><a href="#contact-footer">Contact us</a></span>  for all your customization needs.
+    </aside>  
     <main class="main" id="menu-main">
         <!-- Menu items populated in javascript file -->
+          
         
     </main>
+    
+   
     <footer>
-        Lorem ipsum dolor sit amet.
+        <div id="about-footer">
+            <h4><a href="sd_about.html" class="link" id="footer-link">About us</a> </h4>
+            <p>Learn about our mission</p>
+        </div>
+        <div id="nav-footer">
+            <h4>Site menu</a> </h4>
+            <ul>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="sd_menu.html" class="link">Menu</a> </li>
+                <li><a href="sd_reviews.html" class="link">Reviews</a> </li>
+            </ul>
+            
+        </div>
+        <div id="contact-footer">
+            <h4>Contact us</h4>
+            <li>Call us: <a href="tel:+1234567890">(123) 456-7890</a></li>
+            <li>Text us: <a href="sms:+1234567890">(123) 456-7890</a></li>
+            <li>Email us: <a href="mailto:dream-sweet@sweet-dreamz.com"><br>dream-sweet@sweet-dreamz.com</a></li>
+
+        </div>
     </footer>
 </body>
 </html>
