@@ -79,15 +79,15 @@
 /* Mobile devices styles */
 @media (min-width: 320px) and (max-width: 767px){
 
-    html{
-        font-size: 31.25%;
+    .menu-main{
+        font-size: 0.6rem;
     }
     #menu-main{
         grid-template-columns: 1fr;
     }
     #aside{
         width: 50%;
-        font-weight: 700;
+        /* font-weight: 700; */
     }
     
 }

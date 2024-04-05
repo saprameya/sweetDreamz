@@ -33,7 +33,7 @@
     </header>
     <main class="main">
         <h1>Customer Order Form</h1>
-        <p>Thank you for being a valuable customer. 
+        <p id="order-notes">Thank you for being a valuable customer. 
             <br>Note that required
             values are marked by an asterisk (*). 
             <br>If you
@@ -49,27 +49,59 @@
                <label for="phoneBox">Phone*</label>
                <input type="text" id="phoneBox" name="custPhone" class="customer-info-box input" placeholder="(nnn) nnn-nnnn" required pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"> 
             </div>
-            <!-- <div>
-               <input name="orderType"  id="delivery" type="radio" checked>
-               <label for="delivery">Delivery</label>
-               <input name="orderType"  id="pickup" type="radio">
-               <label for="pickup">Pickup</label>
-            </div> -->
-            <fieldset id="deliveryInfo">
-               <legend>Delivery Options</legend>
-               <textarea name="delAddress" id ="addressBox" class="input" placeholder="Enter delivery address." required></textarea>
-               <label>Delivery Time</label>
-               <input name="delTime" id ="delBox" type="time"  placeholder="Enter delivery address." >
+            <fieldset  class="customer-info-box" id="payment-info">
+               <legend>Payment information</legend>
+                <select id="ccard" name="creditcard" required>
+                    <option value="">Credit Card Type</option>
+                    <option value="amex">American Express </option>
+                    <option value="disc">Discover </option>
+                    <option value="master">MasterCard</option>
+                    <option value="visa">Visa</option>
+                </select>
+                
+                <label for="cname">Name on card</label>
+                <input id="cname" class="input" name="cardname" type="text" required/>
+                
+                <label for="cnum">Card Number</label>
+                <input type="text" class="input" name="cardnumber" id="cnum" required pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|[25][1-7][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$"/>
+                
+                <select name="cardmonth" id="month" required>
+                    <option value="">Month</option>        
+                    <option value="01">January(01)</option>        
+                    <option value="02">February(02)</option>        
+                    <option value="03">March(03)</option>        
+                    <option value="04">April(04)</option>        
+                    <option value="05">May(05)</option>        
+                    <option value="06">June(06)</option>        
+                    <option value="07">July(07)</option>        
+                    <option value="08">August(08)</option>        
+                    <option value="09">September(09)</option>        
+                    <option value="10">October(10)</option>        
+                    <option value="11">November(11)</option>        
+                    <option value="12">December(12)</option>        
+                </select>  
+                
+                <select name="cardyear" id="year">   
+                    <option value="">Year</option>   
+                    <option value="2020">2020</option>  
+                    <option value="2021">2021</option>  
+                    <option value="2022">2022</option>  
+                    <option value="2023">2023</option>  
+                    <option value="2024">2024</option>  
+                </select>
+                
+                <label for="csc">CSC</label>
+                <input type="text" class="input" id="csc" name="cardcsc" maxlength="3" pattern="^\d{3}$" required />
             </fieldset>
-            <!-- <fieldset id="pickupInfo">
-                <legend>Pickup Options </legend>
-                <label>Pickup Time (leave blank for earliest pickup)</label>
-                <input name="pickupTime" id ="pickupBox" type="time" placeholder="Enter delivery address." disabled>
-             </fieldset> -->
-             <div>
-                <button class="order-button" type="submit" >Place your Order</button>
-             </div>
-    
+
+            <fieldset class="customer-info-box" id="customerInfo">
+               <legend>Delivery Address</legend>
+               <textarea name="delAddress" id ="addressBox" class="input" placeholder="Enter delivery address." required></textarea>
+            </fieldset>
+
+        <div>
+            <button class="order-button" type="submit" >Place your Order</button>
+        </div>
         </form>   
     </main>
     <footer>
