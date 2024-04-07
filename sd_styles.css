@@ -209,7 +209,7 @@ footer h4{
     font-size: 1.7rem;
 }
 
-footer li {
+footer li, li {
     font-size: 1.5rem;
     list-style-type: none;
 }
@@ -236,11 +236,17 @@ video{
 
 }
 
-.contact a{
+.inline-link{
     color: #f0e9e3;
     text-decoration: underline;
+    font-size: 3rem;
     
 }
+
+.inline-link:hover{
+    font-size:  3.2rem;
+}
+
 
 #disclaimer h1{
     margin: 2rem;
@@ -265,7 +271,9 @@ video{
     footer h4, #footer-link{
         font-size: 1rem;
     }
-    
+    .inline-link{
+        font-size: 2rem;
+    }
     .footer-link{
         font-size: 1rem;
     

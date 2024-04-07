@@ -6,7 +6,7 @@
 "use strict";
 
 var itemCardId = new Array("choc-chip-card", "dbl-choc-chip-card","brownies-card");
-var itemImg = new Array("chocolate chip cookies on a plate.png","double chocolate chip cookies on a plate.png", "brownies on a plate.png");
+var itemImg = new Array("chocolate chip cookies on a plate.jpg","double chocolate chip cookies on a plate.jpg", "brownies on a plate.jpg");
 var itemAltTxt = new Array("chocolate chip cookies on a plate", "double chocolate chip cookies on a plate", "brownies on a plate");
 var itemId = new Array("choc-chip", "dbl-choc-chip", "brownies");
 var itemTitle = new Array("Classic Chocolate<br>Chip Cookies", "Double Chocolate<br>Chip Cookies", "Brownies");
