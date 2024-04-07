@@ -1,3 +1,9 @@
+// Author: Sheela Aprameya
+// Date: 03/19/2024  
+
+// Filename: sd_cart.js
+
+
 "use strict";
 
 var cartItem = document.getElementById("cart");

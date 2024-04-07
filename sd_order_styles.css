@@ -1,3 +1,10 @@
+/*     
+    Author: Sheela Aprameya
+    Date: 03/19/2024  
+
+    Filename: sd_order_styles.css
+    
+ */
 #order-notes{
    display: block;
    margin:10rem auto 0 auto;
@@ -112,6 +119,8 @@ label {
     
  }
  
+/* Mobile devices styles */
+
  @media only screen and (min-width: 320px) and (max-width: 767px){
    #order-notes{
       font-size: 1.3rem;

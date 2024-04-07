@@ -1,3 +1,8 @@
+// Author: Sheela Aprameya
+// Date: 03/19/2024  
+
+// Filename: sd_script.js
+
 "use strict";
 
 var itemCardId = new Array("choc-chip-card", "dbl-choc-chip-card","brownies-card");
@@ -25,57 +30,6 @@ for(var i = 0; i<itemCardId.length; i++){
     '<h3 class="item-title" id="title">' + itemTitle[i] + '</h3> ' +
     '<div class="price">'+'$' + itemPrice[i] + '</div>' + 
     '<button class="order-button" id="' + (i+1) + '"> <a href="sd_cart.html">Add to cart</a></button>';
-    // '<button onclick ="addToCart(this)" type="submit" class="order-button" id="' + (i+1) + '">Add to cart</button>';
 }
 item.innerHTML += '</article>';
 
-// if(itemCardId.length < 4){
-//     item.innerHTML += "<article></article>"
-// }
-
-
-// var cart = document.getElementById("shopping-cart");
-
-
-// function addToCart(item){
-
-//     for (var i = 0; i < itemCardId.length; i++){
-//         if(item.id == i+1){
-//             addedItemImg.push(itemImg[i]);
-//             addedItemTitle.push(itemTitle[i]);
-//             addedItemPrice.push(itemPrice[i]);
-//             // addedItemQty.push(1);
-//         }
-//     }
-    
-//     showCart();
-// }
-
-// function showCart(){
-//     var cartItems = "";
-//     grandTotal = 0;
-//     for(var i = 0; i < addedItemImg.length; i++){
-
-//         var itemTotal = addedItemPrice[i]*2;
-//         cartItems += 
-//         '<tr>'+ 
-//         '<td><image src = "' +  addedItemImg[i] + '" ></td>' +
-//         '<td>' + addedItemTitle[i] + '</td>' +
-//         '<td>' + '$'+addedItemPrice[i] + '</td>'+
-//         '<td>' + 2 + '</td>'+
-//         '<td>' + '$'+ itemTotal.toFixed(2) + '</td>'+
-//         '</tr>';
-        
-//         grandTotal += parseFloat(itemTotal);
-//     }
-
-
-
-//     // alert(addedItemTitle[i]);
-//     cart.innerHTML = cartHeader + cartItems + '<tr>'+ 
-//     '<th>Total</th>' + '<td></td>' + '<td></td>'+ '<td></td>' +
-//     '<td>'+ '$'+grandTotal.toFixed(2) +'</td>' + '</tr></table>'
-//     // alert(cart.innerHTML);
-//     cart.style.display = "block";   
-
-// }

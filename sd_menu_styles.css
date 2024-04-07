@@ -1,3 +1,11 @@
+/*     
+    Author: Sheela Aprameya
+    Date: 03/19/2024  
+
+    Filename: sd_menu_styles.css
+    
+ */
+
 /* menu styles */
 #menu-main{
     display: grid;
@@ -77,7 +85,7 @@
 
 
 /* Mobile devices styles */
-@media (min-width: 320px) and (max-width: 767px){
+@media only screen and (min-width: 320px) and (max-width: 767px){
 
     .menu-main{
         font-size: 0.6rem;
@@ -92,7 +100,7 @@
     
 }
 
-@media (min-width: 768px) and (max-width:1023px){
+@media only screen and (min-width: 768px) and (max-width:1023px){
     #menu-main{
         grid-template-columns: 1fr 1fr;
     }
