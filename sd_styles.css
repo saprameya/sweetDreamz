@@ -271,9 +271,7 @@ video{
     footer h4, #footer-link{
         font-size: 1rem;
     }
-    .inline-link{
-        font-size: 2rem;
-    }
+    
     .footer-link{
         font-size: 1rem;
     
@@ -296,6 +294,9 @@ video{
     }
     .link{
         font-size: 1.5rem;
+    }
+    .inline-link, .inline-link:active{
+        font-size: 2rem;
     }
 
     body{
