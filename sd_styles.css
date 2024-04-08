@@ -179,15 +179,19 @@ footer{
     font-size: 1.5rem;
     color: #f0e9e3;
     bottom: 0%;
-    display: flex;
-    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
     padding: 1rem 5rem;
     flex-direction: row;
     align-items: baseline;
+    
     padding-top: 2rem;
     height: auto;
 }
 footer div{
+    display: block;
+    margin: 0 auto;
     width: max-content;
     text-align: left;
 }
@@ -262,8 +266,11 @@ video{
         flex-direction: column;
         height: 15rem;
     }
+
+    footer{
+        grid-column-gap: 2rem;
+    }
     footer, footer li, footer li a.footer, #contact-link{
-        
         font-size: 0.7rem;
         padding: 1rem;        
     }
@@ -274,7 +281,6 @@ video{
     
     .footer-link{
         font-size: 1rem;
-    
         text-decoration: underline;
     }
     
@@ -282,7 +288,7 @@ video{
         font-size: 1.3rem;
     }
     footer div:last-child{
-        width: min-content;
+        float: right;
         text-align: left;
     }
 
