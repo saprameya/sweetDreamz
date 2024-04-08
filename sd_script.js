@@ -12,7 +12,7 @@ var itemId = new Array("choc-chip", "dbl-choc-chip", "brownies");
 var itemTitle = new Array("Classic Chocolate<br>Chip Cookies", "Double Chocolate<br>Chip Cookies", "Brownies");
 var itemPrice = new Array(2.85, 2.85, 4.25);
 var itemButton;
-
+var orderButton = document.getElementById("order-button");
 
 var addedItemImg = Array();
 var addedItemTitle = Array();
@@ -33,3 +33,10 @@ for(var i = 0; i<itemCardId.length; i++){
 }
 item.innerHTML += '</article>';
 
+function orderAction(event){
+    // event.preventDefault();
+    alert("Thank you for shopping with us.");
+    window.location = "index.html";
+    return false;
+    
+}

@@ -45,7 +45,7 @@
             <br>If you want to place your order over the phone, please call us at
             <a href="tel:+1234567890">(123) 456-7890</a>.
         </p>
-        <form action="" method="post">
+        <form action="" method="post" onsubmit="return orderAction();">
             <div>
                <label for="nameBox">Name</label>
                <input name="custName" id="nameBox" type="text" class="customer-info-box input" placeholder="first-name last-name" required>
@@ -88,11 +88,11 @@
                 
                 <select name="cardyear" id="year">   
                     <option value="">Year</option>   
-                    <option value="2020">2020</option>  
-                    <option value="2021">2021</option>  
-                    <option value="2022">2022</option>  
-                    <option value="2023">2023</option>  
                     <option value="2024">2024</option>  
+                    <option value="2020">2025</option>  
+                    <option value="2021">2026</option>  
+                    <option value="2022">2027</option>  
+                    <option value="2023">2028</option>  
                 </select>
                 
                 <label for="csc">CSC</label>
@@ -105,7 +105,7 @@
             </fieldset>
 
         <div>
-            <button class="order-button" id="order-button" type="submit" ><a href="index.html">Place your Order</a> </button>
+            <button class="order-button" id="order-button" type="submit" >Place your Order</button>
         </div>
         </form>   
     </main>
