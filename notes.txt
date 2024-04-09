@@ -1,6 +1,0 @@
-website colors
-body     background-image: radial-gradient(#89592f 60%,#e98944);
-.header, footer: background-color: #52341e;
-html, .header, footer: font-color: #f0e9e3;
-.header .search-form input: background-color: #f5dbac
-.cart:hover: background-color:  #8c5832
