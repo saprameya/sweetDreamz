@@ -274,6 +274,9 @@ video{
         height: 15rem;
     }
 
+    #order-form-cart{
+        margin-right: 0;
+    }
     footer{
         grid-column-gap: 2rem;
     }
