@@ -53,6 +53,10 @@ h1{
     position: fixed;
 }
 
+.header .logo{
+    width: 20%;
+}
+
 .header .logo img{
     height: 10rem;
     margin: 0.5rem;
@@ -87,6 +91,7 @@ h1{
 }
 
 .header .actions{
+    width: 20%;
     display: flex;
 }
 
@@ -105,7 +110,7 @@ h1{
 }
 
 .header .search-form input{
-    width: 90%;
+    width: 75%;
     height: 3rem;
     padding: 1rem;
     text-transform: none;
@@ -115,12 +120,16 @@ h1{
     background-color: #f5dbac;
     box-shadow: 0.2rem 0.2rem 2rem inset;
     align-items: center;
+    justify-content: right;
     
 }
+/* #search-box{
+    width: ;
+} */
 
 #searchBtn{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     float: right;
     text-transform: none;
     font-size: 1.3rem;
@@ -267,7 +276,12 @@ video{
         flex-direction: column;
         height: 15rem;
     }
-
+    .header .logo{
+        width: fit-content;
+    }
+    .header .actions{
+        width: fit-content;
+    }
     
     footer{
         grid-column-gap: 2rem;
