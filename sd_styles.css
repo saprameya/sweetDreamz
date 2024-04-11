@@ -61,10 +61,6 @@ h1{
     border: 0.3rem solid #52341e;
 }
 
-.header .siteMenu{
-    display: none;
-    font-size: 1.5rem;
-}
 
 .link{
     height: 7rem;
@@ -155,9 +151,7 @@ h1{
     height: 3.5rem;
     background-color: #8c5832;   
 }
-#order-form-cart{
-    margin-right: 2rem;
-}
+
 
 /* Body section styles */
 .main{
@@ -274,9 +268,7 @@ video{
         height: 15rem;
     }
 
-    #order-form-cart{
-        margin-right: 0;
-    }
+    
     footer{
         grid-column-gap: 2rem;
     }
