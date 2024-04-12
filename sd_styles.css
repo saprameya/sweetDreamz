@@ -367,9 +367,7 @@ video{
         height: min-content;
     }
 
-    #disclaimer p:first-child{
-        margin-top: -8rem;
-    }
+    
     .main_article_section > p:nth-child(6){
         margin-top: 0;
     }
