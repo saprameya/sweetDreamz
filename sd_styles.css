@@ -179,9 +179,13 @@ h1{
 }
 
 .topic-text{
-    padding: 2rem;
+    padding: 2rem 20%;
     box-shadow: 0 0 2rem #52341e;
     border-radius: 2rem;
+}
+
+.main_article_section:first-child{
+    padding: 2rem;
 }
 .main_article_image{
     min-height: 60vh;
@@ -346,13 +350,16 @@ video{
         margin-right: 0;
         
     }
-    
+    .topic-text{
+        padding: 2rem;
+    }
     #menu_link, #video_link, #testimonial_link{
         font-size: 2rem;
     }
     #disclaimer{
         
         display: block;
+        margin-top: -2rem;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
