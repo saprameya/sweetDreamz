@@ -228,8 +228,9 @@ footer h4{
     text-decoration: underline;
 }
 
-.footer-link:hover{
+.footer-link:hover, #contact-link:hover{
     font-size: 1.7rem;
+    
 }
 
 footer li, li {
