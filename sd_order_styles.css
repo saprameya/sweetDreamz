@@ -106,6 +106,10 @@ label {
  input#sizeBox {
     width: 24rem;
  }
+
+ #order-notes, form{
+   margin-top: 5rem;
+ }
  #order-button{
    float: right;
  }

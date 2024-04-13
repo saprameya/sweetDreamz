@@ -92,6 +92,7 @@
     }
     #menu-main{
         grid-template-columns: 1fr;
+        margin-top: 0;
     }
     #aside{
         width: 80%;
