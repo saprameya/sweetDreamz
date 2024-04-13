@@ -184,7 +184,7 @@ h1{
     border-radius: 1rem;
 }
 
-.main_article_section:first-child{
+.main_article_section:first-child, .main_article_section:nth-child(3){
     padding: 2rem;
 }
 .main_article_image{
