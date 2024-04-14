@@ -148,22 +148,40 @@ label {
 /* Mobile devices styles */
 
  @media only screen and (min-width: 320px) and (max-width: 767px){
+
+  #order-form-logo{
+    height: 7rem;
+  }
+
    #order-form-cart{
    margin-right: 0;
   }
-   #order-notes{
-      font-size: 1.3rem;
-   }
+  
+  #order-notes{
+    font-size: 1.3rem;
+  }
 
 
-   .input, label, #ccard, #month, #year{
-      font-size: 1rem;
+  .input, label, #ccard, #month, #year{
+    font-size: 1rem;
 
-   }
+  }
+
+  #addressBox.input{
+    height:10rem;
+  }
  }
 
  @media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    #order-form-logo{
+      height: 7rem;
+    }
    #order-form-cart{
       margin-right: 0;
   }
+  #addressBox.input{
+    height:10rem;
+  }
+  
  }
