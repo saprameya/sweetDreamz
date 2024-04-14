@@ -14,6 +14,8 @@
     align-items:baseline;
     grid-template-columns: repeat(3, 1fr);
     max-height: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -25,7 +27,9 @@
     text-align: center;
     color: #382415;
     font-size: 1.5rem;
-    
+    background-color: #f5dbac;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 

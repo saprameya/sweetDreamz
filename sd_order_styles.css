@@ -126,6 +126,8 @@ label {
  }
  #order-button{
    float: right;
+   /* padding: 1rem 0.5rem; */
+   margin-right: 0.5rem;
  }
 
  /* Validation Styles */
@@ -170,6 +172,13 @@ label {
   #addressBox.input{
     height:10rem;
   }
+
+ #order-button{
+    float: none;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
  }
 
  @media only screen and (min-width: 768px) and (max-width: 1023px){
@@ -180,8 +189,8 @@ label {
    #order-form-cart{
       margin-right: 0;
   }
-  #addressBox.input{
-    height:10rem;
-  }
+    #addressBox.input{
+      height:10rem;
+    }
   
  }
