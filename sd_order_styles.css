@@ -6,6 +6,14 @@
     
  */
 
+#order-form-logo{
+   height: 10rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 2rem  #b6a281;
+    border: 0.3rem solid #52341e;
+}
+
  #order-form-cart{
    margin-right: 2rem;
 }
