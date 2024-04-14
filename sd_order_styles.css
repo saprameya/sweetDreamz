@@ -1,17 +1,17 @@
 /*     
-    Author: Sheela Aprameya
-    Date: 03/19/2024  
+   Author: Sheela Aprameya
+   Date: 03/19/2024  
 
-    Filename: sd_order_styles.css
+   Filename: sd_order_styles.css
     
  */
 
 #order-form-logo{
    height: 10rem;
-    margin: 0.5rem;
-    border-radius: 1rem;
-    box-shadow: 0.2rem 0.2rem 2rem  #b6a281;
-    border: 0.3rem solid #52341e;
+   margin: 0.5rem;
+   border-radius: 1rem;
+   box-shadow: 0.2rem 0.2rem 2rem  #b6a281;
+   border: 0.3rem solid #52341e;
 }
 
  #order-form-cart{
@@ -26,36 +26,36 @@
 }
 
 a{
-    color: #f0e9e3;
-    text-decoration: underline;
+   color: #f0e9e3;
+   text-decoration: underline;
 }
 
 form {
-    display: flex;
-    width: 70%;
-    margin:  10rem auto 0 auto;
-    border-radius: 1rem;
-    box-shadow: 0 0 2rem #52341e;
-    padding: 2rem;
-    flex-flow: row wrap;
+   display: flex;
+   width: 70%;
+   margin:  10rem auto 0 auto;
+   border-radius: 1rem;
+   box-shadow: 0 0 2rem #52341e;
+   padding: 2rem;
+   flex-flow: row wrap;
 }
 
 fieldset {
-    background-color: #f5dbac;
-    flex: 1 1 30rem; 
-    margin: 1rem;
-    padding: 1rem 2rem;  
+   background-color: #f5dbac;
+   flex: 1 1 30rem; 
+   margin: 1rem;
+   padding: 1rem 2rem;  
 }
 
 form div{
-    margin: 0.5rem;
-    width: 100%;
+   margin: 0.5rem;
+   width: 100%;
 }
 
 .customer-info-box{
-    font-size: 2rem;
-    background-color: #f0e9e3;
-    color: #52341e;
+   font-size: 2rem;
+   background-color: #f0e9e3;
+   color: #52341e;
 }
 
 #addressBox{
@@ -63,19 +63,19 @@ form div{
    height: 100%;
 }
 legend {
-    color: #f0e9e3;
-    background-color: #52341e;
-    font-size: 1.5rem;
+   color: #f0e9e3;
+   background-color: #52341e;
+   font-size: 1.5rem;
 }
 
 label {
-    display: inline-block;
-    width: 12rem;
-    font-size: 2rem;
+   display: inline-block;
+   width: 12rem;
+   font-size: 2rem;
  }
  fieldset{
-    color: #52341e;
-    margin-left: 0.5rem;
+   color: #52341e;
+   margin-left: 0.5rem;
  }
 
  #payment-info{
@@ -95,9 +95,9 @@ label {
    font-size: 2rem;
  }
  fieldset#deliveryInfo label {
-    margin-bottom: 1rem;
-    margin-left: 0.5rem;
-    width: 50%;
+   margin-bottom: 1rem;
+   margin-left: 0.5rem;
+   width: 50%;
  }
 
  #addressBox{
@@ -106,19 +106,19 @@ label {
  }
 
  textarea {
-    display: block;
-    width: 90%;
-    height: 10rem;
-    background-color: #f0e9e3;
+   display: block;
+   width: 90%;
+   height: 10rem;
+   background-color: #f0e9e3;
  }
 
  input[type="submit"] {
-    height: 5rem;
-    width: 20rem;
+   height: 5rem;
+   width: 20rem;
  }
  
  input#sizeBox {
-    width: 24rem;
+   width: 24rem;
  }
 
  #order-notes, form{
@@ -132,16 +132,16 @@ label {
 
  
 .input:focus{
-    background-color: hsl(328, 30%, 62%);
+   background-color: hsl(328, 30%, 62%);
  }
  
  .input:focus:valid {
-    background-color: rgb(220, 255, 220);
+   background-color: rgb(220, 255, 220);
     
  }
  
  .input:focus:invalid{
-    background-color: rgb(250, 168, 168);
+   background-color: rgb(250, 168, 168);
     
  }
  
@@ -149,7 +149,7 @@ label {
 
  @media only screen and (min-width: 320px) and (max-width: 767px){
    #order-form-cart{
-      margin-right: 0;
+   margin-right: 0;
   }
    #order-notes{
       font-size: 1.3rem;
