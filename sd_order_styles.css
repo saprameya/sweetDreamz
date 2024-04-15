@@ -29,6 +29,10 @@ a{
    color: #f0e9e3;
    text-decoration: underline;
 }
+a:hover{
+  color: #000;
+  font-size: 2.2rem;
+}
 
 form {
    display: flex;
@@ -129,6 +133,10 @@ label {
    /* padding: 1rem 0.5rem; */
    margin-right: 0.5rem;
  }
+ #order-button:hover{
+  color: white;
+  background-color: #694328;
+}
 
  /* Validation Styles */
 
@@ -162,7 +170,7 @@ label {
   #order-notes{
     font-size: 1.3rem;
   }
-
+  
 
   .input, label, #ccard, #month, #year{
     font-size: 1rem;
