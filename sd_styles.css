@@ -187,7 +187,6 @@ h1{
 .main_article_section {
     font-size: 3rem;
     margin: 5rem;
-    
 }
 
 .topic-text{
@@ -200,19 +199,15 @@ h1{
     padding: 2rem;
 }
 .main_article_image{
-    min-height: 60vh;
-    /* background-image: url(CookiesBkgrndAIBigger.png);
-    background-size: cover;
-    border: 0.3rem solid #52341e;
-    border-radius: 1rem; */
     margin: 0 5rem;
     
 }
 #main_article_image{
-    max-width: 100%;
-    height: auto;
-    object-fit:contain;
-    border: 0.3rem solid #52341e;
+    width: 100%;
+    max-height: 60vh;
+    object-fit:cover;
+    object-position: top;
+    border: 0.5rem solid #52341e;
     border-radius: 1rem;
     box-shadow: 1rem 1rem 2rem #000;
 }
@@ -308,11 +303,11 @@ video{
     margin-top: -4rem;
 }
 /* Mobile devices styles */
-@media only screen and (min-width: 320px) and (max-width:767px){
+/* @media only screen and (min-width: 320px) and (max-width:767px){
     .topic-text:nth-child(3){
         margin-top: 0;
     }
-}
+} */
 @media only screen and (min-width: 320px) and (max-width:1024px){
     .header{
         flex-direction: column;
