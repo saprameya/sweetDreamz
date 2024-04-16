@@ -303,11 +303,7 @@ video{
     margin-top: -4rem;
 }
 /* Mobile devices styles */
-/* @media only screen and (min-width: 320px) and (max-width:767px){
-    .topic-text:nth-child(3){
-        margin-top: 0;
-    }
-} */
+
 @media only screen and (min-width: 320px) and (max-width:1024px){
     .header{
         flex-direction: column;

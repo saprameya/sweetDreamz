@@ -87,16 +87,22 @@ tbody:first-child, tbody:last-child{
     background-color: #52341e;
 }
 #check-out-btn:hover{
-    color: white;
-    background-color: #694328;
+    background-color: #e98944;
+}
+
+#check-out-btn a:hover{
+    color: #52341e;
+    
 }
 
 #check-out-btn:active{
     box-shadow: 0.5rem 0.5rem 2rem black inset;
 }
-#order-button a{
-    text-decoration: none;
-}
+.order-button:hover{
+    color: #e4c89a;
+    background-color: #694328;
+  }
+
 
 /* Mobile devices styles */
 @media only screen and (min-width: 320px) and (max-width: 767px){

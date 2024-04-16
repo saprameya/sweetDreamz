@@ -130,17 +130,14 @@ label {
  }
  #order-button{
    float: right;
-   /* padding: 1rem 0.5rem; */
    margin-right: 0.5rem;
  }
- #order-button:hover{
-  color: white;
-  background-color: #694328;
+ .order-button:hover{
+  color: #694328;
+  background-color: #e98944;
 }
 
  /* Validation Styles */
-
- 
 .input:focus{
    background-color: hsl(328, 30%, 62%);
  }
@@ -156,7 +153,6 @@ label {
  }
  
 /* Mobile devices styles */
-
  @media only screen and (min-width: 320px) and (max-width: 767px){
 
   #order-form-logo{

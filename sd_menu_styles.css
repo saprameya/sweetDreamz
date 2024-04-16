@@ -37,7 +37,6 @@
     width:  20rem;
     border-radius: 1.5rem;
     box-shadow: 0.5rem 0.5rem 1.5rem #ee9555;
-    /* margin: 1rem 0; */
     border: 0.5rem solid #52341e;
 }    
 
@@ -70,9 +69,12 @@
 
 .order-button:hover{
     color: white;
-    background-color: #694328;
+    background-color: #e98944;
 }
 
+.order-button a:hover{
+    color: #52341e;
+}
 .order-button:active{
     box-shadow: 0.5rem 0.5rem 2rem black inset;
 
